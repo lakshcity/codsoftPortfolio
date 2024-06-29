@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header {
+    background: #333;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.header .logo {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.header .tagline {
+    font-size: 18px;
+    color: #77b5fe;
+    margin-top: 10px;
+}
+
+.about-section, 
+.languages-section,
+.skills-section, 
+.projects-section, 
+.resume-section, 
+.contact-section,w{
+    justify-content:flex-start;
+    padding: 50px 0;
+    text-align: center;
+    background: #fff;
+}
+
+.about-section img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.skills-section ul {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.skills-section ul li {
+    display: inline-block;
+    background: #77b5fe;
+    justify-content: center;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.languages-section ul li{
+    display: flexbox;
+    color: #77b5fe;
+    justify-content:center;
+    
+}
+
+.projects-section .project {
+    margin-bottom: 20px;
+}
+
+.projects-section .project img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.resume-section .btn {
+    font-size: 18px;
+    background: #77b5fe;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration:solid;
+    border-radius: 5px;
+}
+
+.contact-section p {
+    margin: 10px 0;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
